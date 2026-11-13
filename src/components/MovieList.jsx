@@ -6,6 +6,7 @@ function MovieList() {
       <h2>הסרטים שלנו</h2>
       <MovieCard
         title="Inception"
+        duration={148}
         genre="Sci-Fi"
         year={2010}
         rating={8.8}
@@ -14,6 +15,7 @@ function MovieList() {
       />
       <MovieCard
         title="Toy Story"
+        duration={80}
         genre="Animation"
         year={1995}
         rating={8.3}
@@ -22,6 +24,7 @@ function MovieList() {
       />
       <MovieCard
         title="Parasite"
+        duration={130}
         genre="Drama"
         year={2019}
         rating={8.5}
